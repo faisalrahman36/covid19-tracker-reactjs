@@ -1,24 +1,49 @@
-import React from 'react';
-import logo from './logo.svg';
+import React,  {useEffect,useState} from 'react';
 import './App.css';
+import Header from './Header';
+
+import MenuIcon from '@material-ui/icons/Menu';
+
+import { Button, Icon, makeStyles, Grid, IconButton, AppBar, Toolbar, Typography } from '@material-ui/core'
+
+import {Bar} from 'react-chartjs-2';
+import CovGrid from './CovGrid';
+
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    flexGrow: 1,
+  },
+  menuButton: {
+    marginRight: theme.spacing(2),
+  },
+  title: {
+    flexGrow: 1,
+  },
+  testButton : {
+    backgroundColor : "red"
+  },
+  back : {
+
+  //backgroundImage: 
+
+
+  }
+}));
 
 function App() {
+
+
+
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+          <Header></Header>
+
+    <AppBar>Covid 19 Tracker App</AppBar>
+    <CovGrid></CovGrid>
+
     </div>
   );
 }

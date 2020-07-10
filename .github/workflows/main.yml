@@ -30,15 +30,6 @@ jobs:
     - uses: borales/actions-yarn@v2.0.0
       with:
         cmd: install # will run `yarn install` command
- 
-    - name: Install MATERIAL UI CORE
-      run: npm install @material-ui/core
-      
-    - name: Install MATERIAL UI Icon
-      run: npm install @material-ui/icons
-      
-    - name: Install react chart and chart js
-      run: npm install --save react-chartjs-2 chart.js
       
     
  

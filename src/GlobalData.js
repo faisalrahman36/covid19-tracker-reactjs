@@ -2,7 +2,7 @@ import React, {useEffect,useState} from 'react';
 //import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import {  makeStyles, Typography } from '@material-ui/core'
-import { yellow } from '@material-ui/core/colors';
+//import { yellow } from '@material-ui/core/colors';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -43,13 +43,6 @@ export default function GlobalData() {
 
   if(isdataloading){
     return <div>Loading  data ...
-    <br/> Meanwhile you can read these guidelines for Covid 19:
-    <br />
-
-    <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank">WHO portal for COVID 19</a>
-    <br />
-    <a href="http://covid.gov.pk/guideline" target="_blank">Government of Pakistan guidelines for COVID19</a>  
-
 </div>
    }
 

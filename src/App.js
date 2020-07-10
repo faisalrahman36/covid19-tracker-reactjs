@@ -4,7 +4,7 @@ import Header from './Header';
 
 //import MenuIcon from '@material-ui/icons/Menu';
 
-import {makeStyles, AppBar } from '@material-ui/core'
+import {AppBar } from '@material-ui/core'
 
 //import {Bar} from 'react-chartjs-2';
 import CovGrid from './CovGrid';

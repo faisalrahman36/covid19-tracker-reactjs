@@ -1,15 +1,12 @@
 import React from 'react';
 import './App.css';
 import Header from './Header';
-
-//import MenuIcon from '@material-ui/icons/Menu';
-
 import {AppBar } from '@material-ui/core'
-
-//import {Bar} from 'react-chartjs-2';
 import CovGrid from './CovGrid';
 
-
+/*
+Help taken from Panacloud BootCamp tutorials by Zia Khan,Zeeshan Hanif and Adil Altaf
+Plus https://github.com/adrianhajdin/*/ 
 
 function App() {
 
